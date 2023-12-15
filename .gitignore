@@ -1,0 +1,15 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+**/.idea/
+**/estutura-condicional.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/out/
+/exercicios/estrutura-repetitiva/estrutura-repetitiva.iml
+/exercicios/exercicios.iml
+/CursoJava.iml
+/exercicios/estrutura-sequencial/estrutura-sequencial.iml
