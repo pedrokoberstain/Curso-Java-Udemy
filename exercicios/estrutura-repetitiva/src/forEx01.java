@@ -12,7 +12,7 @@ public class forEx01 {
         // Lê o valor de x a partir da entrada do usuário
         int x = sc.nextInt();
 
-        // Loop for para iterar de 1 até xdssd
+        // Loop for para iterar de 1 até x
         for (int i = 1; i <= x; i++) {
             // Verifica se i é ímpar (resto da divisão por 2 é diferente de zero)
             if (i % 2 != 0) {
