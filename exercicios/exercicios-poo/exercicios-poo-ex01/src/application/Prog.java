@@ -1,11 +1,11 @@
-package src.application;
+package application;
 
-import src.entities.Triangle;
+import entities.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class Prog {
 
     public static void main(String[] args) {
 
