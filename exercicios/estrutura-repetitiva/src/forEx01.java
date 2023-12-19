@@ -1,27 +1,14 @@
-package src;
-
 import java.util.Scanner;
 
 public class forEx01 {
+        public static void main(String[] args) {
+            int a = 5;
+            int b = 7;
+            boolean c = true;
 
-    public static void main(String[] args) {
+            boolean resultado = (a > b) || (c == true);
 
-        // Cria um objeto Scanner para a entrada do teclado
-        Scanner sc = new Scanner(System.in);
-
-        // Lê o valor de x a partir da entrada do usuário
-        int x = sc.nextInt();
-
-        // Loop for para iterar de 1 até x
-        for (int i = 1; i <= x; i++) {
-            // Verifica se i é ímpar (resto da divisão por 2 é diferente de zero)
-            if (i % 2 != 0) {
-                // Imprime o valor de i, que é ímpar
-                System.out.println(i);
-            }
+            System.out.println("O resultado da expressão é: " + resultado);
         }
-
-        // Fecha o Scanner para evitar vazamento de recursos
-        sc.close();
-    }
 }
+
