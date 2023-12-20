@@ -1,15 +1,18 @@
 package entities;
 
-public abstract class Product {
+// Classe base para representar um produto comum
+public class Product {
 
     private String name;
     private Double price;
 
+    // Construtor
     public Product(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
+    // Getters e setters
     public String getName() {
         return name;
     }
@@ -26,5 +29,10 @@ public abstract class Product {
         this.price = price;
     }
 
-    public abstract String priceTag();
+    // Método para obter a etiqueta de preço
+    public String priceTag() {
+        return name
+                + " $ "
+                + String.format("%.2f", price);
+    }
 }

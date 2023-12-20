@@ -1,15 +1,16 @@
 package model.entities;
 
 import entities.Product;
+import entities.Productoo;
 
 public class OrderItem {
 
     private Integer quantity;
     private Double price;
 
-    private Product product;
+    private Productoo product;
 
-    public OrderItem(Integer quantity, Double price, Product product) {
+    public OrderItem(Integer quantity, Double price, Productoo product) {
         this.quantity = quantity;
         this.price = price;
         this.product = product;
@@ -31,11 +32,11 @@ public class OrderItem {
         this.price = price;
     }
 
-    public Product getProduct() {
+    public Productoo getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(Productoo product) {
         this.product = product;
     }
 
