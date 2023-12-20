@@ -3,6 +3,7 @@ package application;
 import entities.Client;
 import entities.Order;
 import entities.Product;
+import entities.Productoo;
 import enums.OrderStatus;
 
 import java.text.ParseException;
@@ -11,7 +12,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Programa {
+public class ProgEx2 {
 
     public static void main(String[] args) throws ParseException {
         Locale.setDefault(Locale.US);
